@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+
+    <title>Store</title>
+</head>
+<body class="pt-[88px]">
+    <header class="bg-black p-6 fixed top-0 w-full z-50">
+        <div class="grid grid-cols-4">
+          <div class="col-span-2">
+            <h1 class="text-white text-4xl font-serif">LaBelle</h1>
+          </div>
+
+          <div class="col-span-2 flex justify-end">
+            <ul>
+              <li class="text-white text-2xl">
+                <a href="">Login</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </header>
+      
+      
+    <section>
+        <div class="swiper w-auto h-[205px] md:h-[400px]">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="/images/fundo2.jpg" alt="..." class="w-full h-52 object-cover md:h-[400px]">
+              </div>
+
+              <div class="swiper-slide">
+                <img src="/images/fundo1.jpg" alt="..." class="w-full h-52 object-cover md:h-[400px]" />
+
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          
+            <div class="swiper-button-prev text-black hover:text-gray-600"></div>
+            <div class="swiper-button-next text-black hover:text-gray-600"></div>
+          
+            <div class="swiper-scrollbar"></div>
+          </div>
+    </section>
+
+    <section class="bg-black p-6">
+        <div class="container mx-auto flex justify-center bg-black p-6">
+          <h1 class="text-white text-2xl">Simplicidade e elegância em cada produto.</h1>
+        </div>
+    </section>
+
+    <section class="text-center py-12 bg-gray-100 p-4">
+        <div class="container mx-auto gap-20">
+          
+          <div class="space-y-8">
+            <h2 class="text-4xl font-bold">DESTAQUES</h2>
+            <p class="text-gray-600 text-xl">Explore os produtos que estão em alta!</p>
+          </div>
+      
+          <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-3">
+            
+            <div class="w-full">
+              <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 h-[450px] cursor-pointer overflow-hidden">
+                <img src="/images/jaqueta2.jpg" alt="Casaco de inverno" class="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h2 class="font-medium cursor-pointer mt-2 text-2xl">Casaco Winter Royal</h2>
+              <h3 class="text-gray-700 text-xl">R$ 189,90</h3>
+            </div>
+            
+            <div class="w-full">
+              <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 h-[450px] cursor-pointer overflow-hidden">
+                <img src="/images/camisa1.jpg" alt="Casaco de inverno" class="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h2 class="font-medium cursor-pointer mt-2 text-2xl">Camisa Polo Em Algodão Orgânico Com Logo</h2>
+              <h3 class="text-gray-700 text-xl">R$ 449,90</h3>
+            </div>
+      
+            <div class="w-full">
+              <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 h-[450px] cursor-pointer overflow-hidden">
+                <img src="/images/calca1.jpg" alt="Casaco de inverno" class="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h2 class="font-medium cursor-pointer mt-2 text-2xl">Calça Masculina Sarja Esporte Fino Azul Marinho</h2>
+              <h3 class="text-gray-700 text-xl">R$ 124,99</h3>
+            </div>
+
+            <div class="w-full">
+              <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 h-[450px] cursor-pointer overflow-hidden">
+                <img src="/images/bolsa1.avif" alt="Casaco de inverno" class="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h2 class="font-medium cursor-pointer mt-2 text-2xl">Bolsa Azul Royal Elegance</h2>
+              <h3 class="text-gray-700 text-xl">R$ 334,50</h3>
+            </div>
+      
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="w-full h-[480px] pt-[88px] pb-[88px] bg-gray-100 px-6">
+        <h2 class="text-3xl font-bold text-black mb-6">CATEGORIAS</h2>
+        <div class="swiper mySwiper h-full">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex justify-center items-center bg-white rounded-lg shadow cursor-pointer">
+              <img src="/images/pescerto.jpg" alt="Categoria 1" class="w-full h-full object-cover rounded-lg" />
+            </div>
+            <div class="swiper-slide flex justify-center items-center bg-white rounded-lg shadow cursor-pointer">
+              <img src="/images/camisacerta.jpg" alt="Categoria 2" class="w-full h-full object-cover rounded-lg" />
+            </div>
+            <div class="swiper-slide flex justify-center items-center bg-white rounded-lg shadow cursor-pointer">
+              <img src="/images/jaquetacerta.jpg" alt="Categoria 3" class="w-full h-full object-cover rounded-lg" />
+            </div>
+            <div class="swiper-slide flex justify-center items-center bg-white rounded-lg shadow cursor-pointer">
+              <img src="/images/bermudacerta.jpg" alt="Categoria 4" class="w-full h-full object-cover rounded-lg" />
+            </div>
+            <div class="swiper-slide flex justify-center items-center bg-white rounded-lg shadow cursor-pointer">
+              <img src="/images/vesrtidocerto.jpg" alt="Categoria 5" class="w-full h-full object-cover rounded-lg" />
+            </div>
+            <div class="swiper-slide flex justify-center items-center bg-white rounded-lg shadow cursor-pointer">
+              <img src="/images/bolsacerta.jpg" alt="Categoria 6" class="w-full h-full object-cover rounded-lg" />
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    <section  class="bg-black p-6">
+        <div class="container mx-auto flex justify-center bg-black p-6">
+          <h1 class="text-white text-2xl">Encontre produtos de acordo com o seu interesse.</h1>
+        </div>
+    </section>
+      
+      <section class="py-12 bg-gray-100 p-4">
+        <div class="container mx-auto gap-20">
+          
+          <div class="space-y-8">
+            <h2 class="text-2xl font-bold ml-2">NOVIDADES</h2>
+            <p class="text-gray-600 text-xl ml-2">Itens recém-chegados que você vai amar!</p>
+          </div>
+      
+          <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 px-2">
+            
+            <div class="w-full">
+              <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 h-[382px] cursor-pointer overflow-hidden">
+                <img src="/images/touca1.jpg" alt="Casaco de inverno" class="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h2 class="font-medium cursor-pointer mt-2 text-2xl text-center">Gorro Branco Ártico</h2>
+              <h3 class="text-gray-700 text-xl text-center">R$ 89,90</h3>
+            </div>        
+      
+            <div class="w-full">
+              <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 h-[382px] cursor-pointer overflow-hidden">
+                <img src="/images/calca2.jpg" alt="Casaco de inverno" class="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h2 class="font-medium cursor-pointer mt-2 text-2xl text-center">Calça Feminina Cargo Sarja - Branco</h2>
+              <h3 class="text-gray-700 text-xl text-center">R$ 495</h3>
+            </div>      
+      
+            <div class="w-full">
+              <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 h-[382px] cursor-pointer overflow-hidden">
+                <img src="/images/sueter1.avif" alt="Casaco de inverno" class="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h2 class="font-medium cursor-pointer mt-2 text-2xl text-center">Suéter Blue Touch</h2>
+              <h3 class="text-gray-700 text-xl text-center">R$ 159,90</h3>
+            </div>      
+            
+            <div class="w-full">
+              <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 h-[382px] cursor-pointer overflow-hidden">
+                <img src="/images/vestido1.avif" alt="Casaco de inverno" class="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h2 class="font-medium cursor-pointer mt-2 text-2xl text-center">Vestido Escarlate Clássico</h2>
+              <h3 class="text-gray-700 text-xl text-center">R$ 319,90</h3>
+            </div>      
+            
+            <div class="w-full">
+              <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 h-[382px] cursor-pointer overflow-hidden">
+                <img src="/images/salto1.jpg" alt="Casaco de inverno" class="w-full h-full object-cover rounded-lg" />
+              </div>
+              <h2 class="font-medium cursor-pointer mt-2 text-2xl text-center">Salto Black Glam</h2>
+              <h3 class="text-gray-700 text-xl text-center">R$ 279,90</h3>
+            </div>      
+          
+        </div>
+      </section>
+
+
+    <section>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+
+            <div class="bg-gray-50 p-8 h-72">
+                <h3 class="text-2xl font-semibold mb-4">Atendimento</h3>
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Central de Ajuda</a><br>   
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Fale Conosco</a><br>                
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Trocas e Devoluções</a><br>               
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Prazo de Entrega</a>               
+              </div>
+
+              <div class="bg-gray-50 p-8 h-72">
+                <h3 class="text-2xl font-semibold mb-4">Sobre</h3>
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Quem Somos</a><br>   
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Nossa História</a><br>                
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Sustentabilidade</a><br>                
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Trabalhe Conosco</a>                
+              </div>
+
+              <div class="bg-gray-50 p-8 h-72">
+                <h3 class="text-2xl font-semibold mb-4">Minha Conta</h3>
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Meus pedidos</a><br>   
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Favoritos</a><br>                
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Cadastro</a><br>                
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Login</a>                
+              </div>
+
+              <div class="bg-gray-50 p-8 h-72">
+                <h3 class="text-2xl font-semibold mb-4">Informações</h3>
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Política de Privacidade</a><br>   
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Termos de Uso</a><br>                
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Política de Entregas</a><br>                
+                <a href="" class="text-gray-600 text-lg hover:text-gray-300">Formas de Pagamento</a>                
+              </div>
+        </div>
+    </section>
+
+    <section>
+        <footer class="bg-black text-white py-6">
+            <div class="container mx-auto text-center">
+              <p class="text-sm">&copy; 2025 Luiz Guilherme. Todos os direitos reservados.</p>
+              <div class="space-x-4">
+                <a href="#" class="hover:text-gray-400">Política de Privacidade</a>
+                <a href="#" class="hover:text-gray-400">Termos de Uso</a>
+                <a href="#" class="hover:text-gray-400">Contato</a>
+              </div>
+            </div>
+          </footer>
+    </section>
+      
+</body>
+</html>
